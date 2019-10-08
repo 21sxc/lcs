@@ -1,0 +1,29 @@
+{
+  "name": "gogo-lcs",
+  "version": "1.0.0",
+  "description": "Longest Common Subsequence algorithm",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tape test tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9gPr0blems/lcs.git"
+  },
+  "keywords": [
+    "algorithm",
+    "lcs"
+  ],
+  "author": "sxc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9gPr0blems/lcs/issues"
+  },
+  "homepage": "https://github.com/9gPr0blems/lcs#readme",
+  "devDependencies": {
+    "tape": "^4.11.0"
+  }
+}
