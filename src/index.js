@@ -19,13 +19,10 @@ function lcsDP(s1, s2) {
 	}
     const record = []
     for (i = 0; i <= m; i++) {
-		record[i] = []
-        record[i][0] = 0
-    }
-
-    for (j = 0; j <= n; j++) {
-        record[0][j] = 0
-    }
+		record[i] = [0]
+	}
+	
+	record[0] = (new Array(n + 1)).fill(0)
 
     for (i = 1; i <= m; i++) {
         for (j = 1; j <= n; j++) {
